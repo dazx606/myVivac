@@ -1,0 +1,17 @@
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-block: 2rem;
+}
+
+.container p {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.container h3{
+    font-size: 2rem;
+    font-weight: 600;
+}

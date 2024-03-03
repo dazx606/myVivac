@@ -1,7 +1,7 @@
 import styles from  './NavBar.module.css'
 import logo from '../../assets/MV.png'
 
-const NavBar = () => {
+export const NavBar = () => {
   return (
     <ul className={styles.navBar}>
         <li className={styles.icon}>
@@ -14,4 +14,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+

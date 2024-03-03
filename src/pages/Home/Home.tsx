@@ -1,9 +1,11 @@
 import image from '../../assets/backGrounfHome.jpg';
 import Book from '../../components/Book/Book';
+import InformationHome from '../../components/InformationHome/InformationHome';
 import InformationText from '../../components/InformationText/InformationText';
+import Logos from '../../components/Logos/Logos';
 import styles from './Home.module.css';
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
       <div className={styles.backgroundImage}>
@@ -12,8 +14,10 @@ const Home = () => {
         <Book />
       </div>
         <InformationText />
+        <InformationHome/>
+        <Logos/>
     </>
   );
 };
 
-export default Home;
+

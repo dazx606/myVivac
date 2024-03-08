@@ -1,6 +1,8 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { Home } from '../pages/Home/Home'
 import { NavBar } from '../components/NavBar/NavBar'
+import Footer from '../components/Footer/Footer'
+
 
 export const AppRoutes = () => {
     return (
@@ -11,6 +13,7 @@ export const AppRoutes = () => {
                 <Route path='/home' element={<Home />} />
 
             </Routes>
+            <Footer />
         </>
     )
 }

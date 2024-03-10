@@ -1,4 +1,94 @@
-.container{
+.container {
     background-color: #C93E39;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.content>div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-block: 3rem;
+}
+
+.content button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    align-self: flex-start;
+    padding-block: 1ch;
+    padding-inline: 2ch;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1.2rem;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 2ch;
+    text-align: left;
+    width: 100%;
+}
+
+.text {
+    margin-bottom: 1ch;
+    font-size: 1.2rem;
+    text-align: left;
+    width: 100%;
+    /* font-weight: 100; */
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1ch;
+}
+
+.logoDiv {
+    background-color: white;
+    border-radius: 50%;
+    /* Hacer el div redondo */
+    padding: 5px;
+    display: flex;
+    /* Establecer como contenedor flexible */
+    align-items: center;
+    /* Centrar verticalmente */
+    justify-content: center;
+    /* Centrar horizontalmente */
+}
+
+.logoDiv>img {
+    width: 25px;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo {
+    width: 2.5ch;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1ch;
+    margin-top: 1rem;
+}
+.footerText{
+    background-color: #C23732;
+    padding-block: 1rem;
+    width: 100%;
+    text-align: center;
 }

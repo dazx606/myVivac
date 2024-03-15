@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
               <div className={styles.contactContainer}>
                 <img className={styles.logo} src={mail} alt="" />
-                <p>ingo@myvivac.com</p>
+                <p>info@myvivac.com</p>
               </div>
               <div className={styles.contactContainer}>
                 <img className={styles.logo} src={location} alt="" />

@@ -1,0 +1,25 @@
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    white-space: pre-line;
+
+}
+
+.cardContainer p{
+    font-size: 1.7rem;
+}
+
+.container {
+    max-width: 1390px;
+    /* background-color: pink; */
+    margin: auto;
+    margin-block: 2rem;
+}
+
+.container > h1 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}

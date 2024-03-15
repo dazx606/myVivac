@@ -6,6 +6,12 @@ import Logos from '../../components/Logos/Logos';
 import styles from './Home.module.css';
 
 export const Home = () => {
+
+  const texts = {
+    title: 'En Myvivac encontrarás...',
+    content: 'estadías, herramientas y experiencias que te ayuden a elevar tu nivel de consciencia e impacten positivamente tu vida.'
+  }
+
   return (
     <>
       <div className={styles.backgroundImage}>
@@ -13,9 +19,9 @@ export const Home = () => {
         <div className={styles.mask}></div>
         <Book />
       </div>
-        <InformationText />
-        <InformationHome/>
-        <Logos/>
+      <InformationText text={texts.content} title={texts.title} />
+      <InformationHome />
+      <Logos />
     </>
   );
 };

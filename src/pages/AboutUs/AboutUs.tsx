@@ -13,7 +13,7 @@ const AboutUs = () => {
       `gestores inmobiliarios apasionados por el turismo sostenible y por generar un
         impacto positivo en las personas y en la comunidad.
 
-        En myvivac.com conectamos los diferentes actores de desarrollo inmobiliario
+        En Myvivac.com conectamos los diferentes actores de desarrollo inmobiliario
         turístico generando una plataforma colaborativa que genera proyectos más
         eficientes, sostenibles y conscientes.
 
@@ -26,11 +26,13 @@ const AboutUs = () => {
       <div className={styles.backgroundImage}>
         <img src={image} alt="" className={styles.image} />
         <div className={styles.mask}></div>
-
+        <div className={styles.overlay}>
+          <p >Respira, conéctate, enfócate, disfruta y repite</p>
+        </div>
       </div>
       <InformationText text={texts.content} title={texts.title} />
       <Environment />
-      <FormSection/>
+      <FormSection />
       <Logos />
     </>
   )

@@ -11,6 +11,20 @@
     padding: 0;
     margin: 0;
   }
+
+  .overlay {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.2ch;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 50%;
+    text-align: left;
+}
   
   .mask {
     position: absolute;

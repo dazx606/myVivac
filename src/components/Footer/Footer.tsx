@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
         <p className={styles.footerText}>
-        Copyright &#169; All Rights Reserved. By UpP Consulting
+        Copyright &#169; All Rights Reserved. David Zuleta
         </p>
       </div>
     </>

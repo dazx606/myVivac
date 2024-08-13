@@ -12,7 +12,7 @@
     justify-content: space-between; /* Alinea los elementos horizontalmente */
     align-items: center; /* Centra verticalmente los elementos */
     gap: 3rem;
-
+    
 }
 
 .icon{
@@ -32,10 +32,12 @@
     padding-top: 1ch;
     font-weight: 600;
     color: rgb(155, 155, 155);
+    white-space: nowrap;
 }
 
 .text1{
     font-weight: 500;
+    white-space: nowrap;
     /* color: red; */
 }
 

@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding-inline: 5%;
+    flex-wrap: wrap;
 }
 
 .subContainer {
@@ -47,4 +48,28 @@
 .logo {
     position: relative;
     top: -45px;
+    width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+    .imageContainer {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1ch;
+    }
+
+    .subTitle{
+        font-size: 1.2rem;
+        padding-bottom: 2ch;
+        padding-top: 1ch;
+    }
+
+    .logo {
+        position: relative;
+        top: -25px;
+        width: 60%;
+    }
+
+  }

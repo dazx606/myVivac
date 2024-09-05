@@ -4,9 +4,7 @@
     display: flex;
     flex-direction: row;
     top: 0;
-
     align-items: center;
-    /* background-color: pink; */
     padding-top: 1ch;
     width: 100%;
 }
@@ -28,3 +26,20 @@
     color: white;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .navBar li {
+        font-size: 0.8rem;
+    }
+
+    .icon {
+        margin-left: 0rem;
+    }
+
+    .navBar {
+       justify-content: center;
+       padding-top: 1rem;
+    }
+
+  }

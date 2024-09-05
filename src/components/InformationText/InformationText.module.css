@@ -16,3 +16,17 @@
     font-size: 2rem;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 768px) {
+    .container p {
+        font-size: 0.7rem;
+    }
+    
+    .container h3{
+        font-size: 1rem;
+    }
+
+    .container  {
+        padding-inline: 5%;
+    }
+  }

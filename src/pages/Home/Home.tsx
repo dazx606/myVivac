@@ -17,7 +17,7 @@ export const Home = () => {
       <div className={styles.backgroundImage}>
         <img src={image} alt="" className={styles.image} />
         <div className={styles.mask}></div>
-        {/* <Book /> */}
+        <Book />
       </div>
       <InformationText text={texts.content} title={texts.title} />
       <InformationHome />
